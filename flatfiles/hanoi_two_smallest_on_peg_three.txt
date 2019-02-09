@@ -27,7 +27,6 @@ fact: (on disk1 peg3)
 fact: (on disk2 peg3)
 fact: (on nothing peg2)
 
-
 fact: (not peg1 peg2)
 fact: (not peg2 peg1)
 fact: (not peg2 peg3)
