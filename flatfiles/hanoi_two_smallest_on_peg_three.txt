@@ -34,6 +34,7 @@ fact: (not peg3 peg2)
 fact: (not peg1 peg3)
 fact: (not peg3 peg1)
 
+
 rule: ((on disk1 ?x) (on nothing ?y)) -> (movable disk1 ?x ?y)
 rule: ((on disk1 ?x) (on disk2 ?y) (not ?x ?y)) -> (movable disk1 ?x ?y)
 rule: ((on disk1 ?x) (on disk3 ?y) (not ?x ?y)) -> (movable disk1 ?x ?y)
